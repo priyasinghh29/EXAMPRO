@@ -1,0 +1,104 @@
+.navbar {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow';
+  }
+  
+  .logo img {
+    width: 150px; 
+    height: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size:larger;
+    
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    
+  }
+  
+  .nav-links li a span {
+    padding: 10px 20px;
+    display: block;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-links li a:hover span {
+    background-color:#FF204E; 
+    color: rgb(255, 255, 255); 
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('bg.gif') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+
+  header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.mentor-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.mentor-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    width: 250px;
+}
+
+.mentor-card:hover {
+    transform: scale(1.05);
+}
+
+.mentor-card img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.mentor-card h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.mentor-card p {
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .mentor-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .mentor-card {
+        width: 90%;
+    }
+}

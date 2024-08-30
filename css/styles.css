@@ -2,11 +2,16 @@ body {
     background-color: white; 
 }
 
-section2{
-    background-color: #FF204E;
-    max-height: 200px;
+#section2 {
+    background-color: #FF204E; /* Add your desired background color */
+    max-height: 900px;
+    padding: 20px; /* Adjust padding to ensure content doesn't overlap */
+    position: relative; /* Ensure the background appears relative to other elements */
+    z-index: 1; /* Adjust if needed to bring this section above others */
+    margin-top: 80px;
 }
-#section3, #section5, #section2{
+
+#section3, #section5{
     margin-top: 120px;
     position: relative;
     overflow: hidden;

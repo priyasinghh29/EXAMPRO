@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book-appointment</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar">
+        <div class="logo">
+          <img src="logo.png" alt="ExamPro">
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html"><span>Home</span></a></li>
+          <li><a href="explore.html"><span>Explore</span></a></li>
+          <li><a href="chatbot.html"><span>Chatbot</span></a></li>
+          <li><a href="community.html"><span>Community</span></a></li>
+          <li><a href="resources.html"><span>Resources</span></a></li>
+          <li><a href="faqs.html"><span>FAQs</span></a></li>
+          <li><a href="aboutus.html"><span>About Us</span></a></li>
+        </ul>
+      </nav>
+
+      <header>
+        <h1>Book an Appointment with John Doe</h1>
+    </header>
+    <br>
+    <main>
+        <div class="form-container">
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="date">Select a Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="time">Select a Time:</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+
+                <button type="submit" class="submit-btn">Book Appointment</button>
+            </form>
+
+            <!-- Confirmation Message -->
+            <p id="confirmationMessage" style="display:none;">Your appointment has been booked successfully!</p>
+        </div>
+    </main>
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form from submitting the traditional way
+
+            // Simulate booking process
+            setTimeout(function() {
+                document.getElementById('confirmationMessage').style.display = 'block'; // Show confirmation message
+                document.getElementById('bookingForm').reset(); // Reset form fields
+            }, 500); // Simulate a delay (e.g., processing time)
+        });
+    </script>
+</body>
+</html>

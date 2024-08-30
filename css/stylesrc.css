@@ -1,0 +1,378 @@
+.navbar {
+    background-color:#ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow';
+  }
+  
+  .logo img {
+    width: 150px; 
+    height: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size:larger;
+    
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    
+  }
+  
+  .nav-links li a span {
+    padding: 10px 20px;
+    display: block;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-links li a:hover span {
+    background-color:#FF204E; 
+    color: rgb(255, 255, 255); 
+  }
+
+  .line{
+    position:absolute;
+    width:100%;
+    overflow: visible;
+    height:100%;
+    background: blueviolet;
+  }
+
+  .text{
+    position:absolute;
+    z-index:99;
+    
+    top:25%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    margin-left:200px;
+    margin-top: 150px;
+
+  }
+
+  .text h1{
+    color:rgb(228, 238, 247);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+
+  .text h4{
+    color:rgb(188, 222, 251);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+ .line-1{
+    z-index:15;
+    opacity: 0.5;
+ }
+
+ .line-2{
+    z-index:10;
+    opacity: 0.7;
+ }
+
+ .line-3{
+    z-index:5;
+    
+ }
+
+ .wave{
+    position:absolute;
+    left:0;
+    width:200%;
+    height:100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin:center bottom;
+    margin-bottom: 0;
+    
+ }
+
+ .wave1{
+    -webkit-background-size:50% 80px ;
+    background-size: 50% 100px;
+ }
+
+ .wave2{
+    -webkit-background-size: 50% 100px;
+    background-size:50% 150px;
+    animation: animate 12s linear infinite;
+ }
+ .wave3{
+    -webkit-background-size: 50% 80px;
+    background-size:50% 80px;
+    animation: animate 18s linear infinite;
+ }
+
+ @keyframes animate{
+    0%{
+        transform: translateX(0) translateZ(0) scaleY(1);
+    }
+
+    50%{
+        transform: translateX(-25%) translateZ(0) scaleY(0.5);
+    }
+
+    100%{
+        transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+ }
+
+ 
+
+ #parent{
+    position:relative;
+ }
+ 
+.red {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* This creates two equal columns */
+  gap: 20px; /* Space between the divs */
+  padding:20px;
+}
+
+.bot {
+  height:300px;
+  width:300px;
+  margin-top: 60px;
+  margin-bottom: 400px;
+  margin-left:100px;
+  position:absolute;
+  z-index:99;
+  
+}
+
+.text p{
+  color:#c8f5ba;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+}
+
+
+
+
+ .heading-container {
+    text-align: center;
+    margin-top: 50px; 
+  }
+  
+  .heading {
+    font-size: 48px;
+    color: #f8f5f5; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+  }
+
+  .heading{
+    
+    font-size: 50px;
+    animation: pulse 2s infinite alternate;
+    
+        background: linear-gradient(90deg, #ea0f0f, #f25353);
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+@keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+}
+ 
+
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffb0b0;
+    padding:20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+    width: 500px;
+    height: 335px;
+    margin: 0 10px;
+}
+
+@media (max-width: 1024px) {
+    .one, .two, .three, .four, .five {
+        width: calc(50% - 20px); /* Two items per row on smaller screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .one, .two, .three, .four, .five,.six, .seven, .eight {
+        width: 100%; /* One item per row on even smaller screens */
+        margin: 0;
+    }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('../assets/bgr.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+
+nav .sign-up {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  transition: transform 0.4s;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+}
+
+.card a {
+  font-size: 1.2em;
+  margin: 10px 0 0 0;
+  color:#000;
+  font-weight: bolder;
+}
+
+.card:hover {
+  transform: scale(1.3);
+}
+
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a164b;
+  color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  line-height: 1.2;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cta input {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.cta button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.checkup {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkup h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.checkup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkup label {
+  margin: 10px 0 5px;
+}
+
+.checkup input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkup button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  align-self: center;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.body nine{
+  background-color: #f8f5f5;
+}

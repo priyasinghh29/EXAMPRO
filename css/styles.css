@@ -1,0 +1,952 @@
+body {
+    background-color: white; 
+}
+
+section2{
+    background-color: #FF204E;
+    max-height: 200px;
+}
+#section3, #section5, #section2{
+    margin-top: 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+#section4{
+    margin-top: 120px;
+}
+
+.heading p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    margin-top: 60px;
+    font-weight: bolder;
+    
+}
+
+.content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+.carousel-container{
+    position: relative;
+    overflow: visible;
+    display: flex;
+    width: fit-content;
+    margin-top: 70px;
+}
+
+.carousel-item{
+    height: 300px;
+    width:300px;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 70px;
+    border-bottom: 10px solid red;
+    transition: opacity 0.5s ease;
+    border-radius: 27px;
+}
+
+  
+  
+.carousel-item img{
+    height: 160.91px;
+    width:250px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    
+}
+
+.title1 a{
+    margin-left: 60px;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.title2 a{
+    margin-left: 90px;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.title3 a{
+    margin-left: 100px;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.title4 a{
+    margin-left: 50px;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.title5 a{
+    margin-left: 120px;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.title6 a{
+    margin-left: 90px;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.title7 a{
+    margin-left: 60px;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.para1 p{
+    font-size: 12px;
+    color:  #868585;
+    margin-left: 5px;
+    text-align: center;
+
+
+}
+
+.para2 p{
+    font-size: 12px;
+    color:  #868585;
+    margin-left: 5px;
+    text-align: center;
+
+
+}
+
+.para3 p{
+    font-size: 12px;
+    color:  #868585;
+    margin-left: 5px;
+    text-align: center;
+
+
+}
+
+.para4 p{
+    font-size: 12px;
+    color:  #868585;
+    margin-left: 5px;
+    text-align: center;
+
+
+}
+
+.para5 p{
+    font-size: 12px;
+    color:  #868585;
+    margin-left: 5px;
+    text-align: center;
+
+
+}
+
+.para6 p{
+    font-size: 12px;
+    color:  #868585;
+    margin-left: 5px;
+    text-align: center;
+
+
+}
+.para7 p{
+    font-size: 12px;
+    color:  #868585;
+    margin-left: 5px;
+    text-align: center;
+
+
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+#prevArrow {
+    left: 10px;
+}
+
+#nextArrow {
+    right: 10px;
+}
+
+.navbar {
+    background-color:#ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow';
+}
+  
+.logo img {
+    width: 150px; 
+    height: auto;
+}
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size:larger;
+    
+}
+  
+.nav-links li a {
+    text-decoration: none;
+    
+}
+  
+.nav-links li a span {
+    padding: 10px 20px;
+    display: block;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.nav-links li a:hover span {
+    background-color:#FF204E; 
+    color: rgb(255, 255, 255); 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* This creates two equal columns */
+    gap: 20px; /* Space between the divs */
+}
+
+.box1, .box2 {
+    padding: 20px;
+    
+    text-align: center;
+}
+.box2 img{
+    height: 600px;
+    width: 580px;
+    margin-left: 30px;
+    
+}
+
+.box1 {
+    width: 700px;
+    
+}
+
+.text{
+    font-size: 70px;
+    text-align: left;
+    margin-left: 90px;
+    margin-top: 90px;
+    font-weight: bold;
+    position: relative;
+    overflow: visible;
+}
+
+.text2 {
+    color: #868585;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.ambitions{
+    background-color: #FF204E;
+}
+.levels{
+    background-color: white;
+}
+
+.heading2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: black;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-weight: bolder;
+    
+}
+
+.content2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#868585;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+.class-container1{
+    position: relative;
+    overflow: visible;
+    display: flex;
+    width: fit-content;
+    margin-top: 60px;
+}
+
+.class-container2{
+    position: relative;
+    overflow: visible;
+    display: flex;
+    width: fit-content;
+    margin-top: 60px;
+}
+
+.class1{
+    margin-left: 80px;
+    background-color:#F7F3F3;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.serial h2{
+    color: #868585;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 2px;
+    
+}
+.classname a{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+}
+.classcontent p{
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.class2{
+    margin-left: 90px;
+    background-color:#F7F3F3;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.class3{
+    margin-left: 90px;
+    background-color:#F7F3F3;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.chatbot{
+    position: relative;
+    overflow: visible;
+    display: flex;
+    width: 1680px;
+    background-color: #00224D;
+    height: 300px;
+    margin-top: 80px;
+    
+}
+.container1{
+    width:300px;
+
+}
+.line1{
+    color:#F7F3F3;
+    margin-left: 50px;
+    margin-top: 120px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.line2{
+    color:  #FF204E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.container2{
+    width: 50px;
+    height: 300px;
+}
+
+.vertical-line {
+    border-left: 2px solid white;
+    height: 240px; /* Adjust the height as needed */
+    margin: 40px;
+    margin-left: 50px;
+}
+
+.container3{
+    
+    margin-left: 80px;
+}
+
+.image{
+    margin-top: 80px;
+    width: 46px;
+    height: 46px;
+}
+.name{
+    color: white;
+    margin-top: 50px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.desc p{
+    color:white;
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container5{
+    margin-left: 110px;
+}
+
+.container4{
+    margin-left: 110px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.changing-text::before {
+    content: "Aspire";
+    
+    animation: changeText 4s infinite;
+  }
+  
+@keyframes changeText {
+    0%, 33.33% { content: "Aspire"; color:  linear-gradient(90deg, #FF073A 0%, #FF8CA3 90.68%);}
+    33.34%, 66.66% { content: "Achieve"; }
+    66.67%, 100% { content: "Excel"; }
+}
+
+.changing-text {
+    position: absolute;
+    top: 80%;  /* Positioning the child at the top-left corner of the parent */
+    left: 55%;
+    transform: translate(-50%, -50%);
+    
+    width: 250px;  /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    margin-left: 90px;
+    color: transparent;
+    background:  linear-gradient(90deg, #FF073A 0%, #FF8CA3 90.68%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+@keyframes fadeText {
+    0%, 100% { 
+      opacity: 1; 
+    }
+    25% {
+      opacity: 0.5;
+    }
+    50% { 
+      opacity: 0; 
+    }
+    75% {
+      opacity: 0.5;
+    }
+}
+
+.changing-text {
+    transition: opacity 1s ease, transform 1s ease, text-shadow 1s ease;
+}
+  
+.explore{
+    background-color: #00224D;
+    height: 27px;
+    width: 190px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 80px;
+    color: #F7F3F3;
+    
+    font-size: 20px;
+    
+}
+
+.explore-text h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.faq-title h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.faq-para p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-left: 50px;
+    color: #868585;
+}
+
+.questions {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* This creates two equal columns */
+    gap: 20px; /* Space between the divs */
+}
+
+.faq-image, .faq-container {
+    padding: 20px;
+    
+    text-align: center;
+}
+.faq-container {
+    padding: 20px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+
+
+
+.faq-image img{
+    height:500px;
+    width: 476px;
+    
+}
+
+
+  
+.faq {
+    margin-bottom: 20px;
+}
+
+.updates-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* This creates two equal columns */
+    gap: 20px; /* Space between the divs */
+    background-color:  #00224D;
+    margin-top: 70px;
+    height: 300px;
+}
+
+.update-image img{
+    height:450px;
+    width: 476px;
+    z-index: 10;
+    bottom: -2860px;
+    position: absolute;
+    
+}
+
+.update-title{
+    color:#F7F3F3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.update-para{
+    color:#F7F3F3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 70px;
+    font-size: 10px;
+}
+
+.form-container {
+    background-color:  #00224D;
+    margin-top: 30px;
+    margin-left: 70px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input[type="email"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color:  #274770;
+    height: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+
+.form-container input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color:#d3cdcd;
+}
+
+.aboutus{
+    margin-left: 80px;
+}
+
+.aboutus-title h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutus-para p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #868585;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* This creates two equal columns */
+    gap: 10px; /* Space between the divs */
+    margin-top: 60px;
+}
+ 
+.team-image1 img{
+    border-radius: 50%;
+    height: 200px;
+    margin-left: 80px;
+}
+.team-image2 img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    
+}
+.team-image3 img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    
+}
+.team-image4 img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    margin-right: 80px;
+    
+}
+.team-name1{
+    margin-left: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.team-name2{
+    margin-left: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.team-name3{
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.team-name4{
+    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.team-batch1{
+    margin-left: 150px;
+    margin-top: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.team-batch2{
+    margin-left: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.team-batch3{
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.team-batch4{
+    margin-left: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.law-banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr ; /* This creates two equal columns */
+    
+    margin-left: 75px;
+    background-color:  #C2AA6B;
+    margin-top: 5px;
+    height: 140px;
+    width: 1290px;
+    border-radius: 10px ;
+}
+.law-banner-image img{
+    height: 140px;
+    margin-left: 230px;
+}
+.law-banner-content p{
+    font-size: 18px;
+    color: #F7F3F3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    margin-left: -150px;
+}
+.law-exams{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.law-image img{
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 200px;
+    width: 400px;
+}
+
+.law-exam1{
+    background-color: #F1F2F2;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 160px;
+    width: 350px;
+    margin-top: 40px;
+    
+}
+.law-exam2{
+    background-color: #F1F2F2;
+    height: 100px;
+    border-radius: 10px;
+    width: 350px;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.law-exam3{
+    background-color: #F1F2F2;
+    height: 100px;
+    border-radius: 10px;
+    width: 350px;
+    margin-left: 160px;
+    margin-top: 70px;
+}
+
+.law-exam4{
+    background-color: #F1F2F2;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: -180px;
+    width: 350px;
+    margin-top: 40px;
+    
+}
+.law-exam5{
+    background-color: #F1F2F2;
+    height: 100px;
+    border-radius: 10px;
+    width: 350px;
+    margin-left: -100px;
+    margin-top: 70px;
+}
+.law-exam6{
+    background-color: #F1F2F2;
+    height: 100px;
+    border-radius: 10px;
+    width: 350px;
+    margin-left: -180px;
+    margin-top: 70px;
+}
+.law-exam-heading{
+    margin-top: 20px;
+}
+.law-exam1-heading h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    
+    margin-left: 10px;
+}
+
+.law-exam1-DESC p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    
+    margin-left: 10px;
+}
+
+.law-exam2-heading h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    
+    margin-left: 10px;
+}
+
+.law-exam2-DESC p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    
+    margin-left: 10px;
+}
+
+.law-exam3-heading h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    
+    margin-left: 10px;
+}
+
+.law-exam3-DESC p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    
+    margin-left: 10px;
+}
+
+.law-exam4-heading h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    
+    margin-left: 10px;
+}
+
+.law-exam4-DESC p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    
+    margin-left: 10px;
+}
+
+.law-exam5-heading h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    
+    margin-left: 10px;
+}
+
+.law-exam5-DESC p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+   
+    margin-left: 10px;
+}
+
+.law-exam6-heading h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    
+    margin-left: 10px;
+}
+
+.law-exam6-DESC p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    
+    margin-left: 10px;
+}
+
+.iframe {
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    border: none;
+    display: block;
+}
+
+.accordion-checkbox {
+    display: none;
+}
+  
+.accordion-title {
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:  #F7F3F3;
+
+    height: 30px;
+}
+  
+.accordion-content {
+    padding: 0 15px 15px 15px;
+    display: none;
+    color:white;
+}
+  
+.accordion-checkbox:checked ~ .accordion-content {
+    display: block;
+}
+
+.accordion-content ul{
+    color:white;
+    text-align: left;
+}
+
+.footer img{
+    width: 1400px;
+    margin-top: 150px;
+    height: 100px;
+    margin-left: 15px;
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px; /* Further adjusts font size for desktops */
+    }
+}

@@ -1,0 +1,93 @@
+.navbar {
+    background-color:#ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow';
+  }
+  
+  .logo img {
+    width: 150px; 
+    height: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size:larger;
+    
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    
+  }
+  
+  .nav-links li a span {
+    padding: 10px 20px;
+    display: block;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-links li a:hover span {
+    background-color:#FF204E; 
+    color: rgb(255, 255, 255); 
+  }
+
+
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.hero img {
+    width: 1200px;
+    height: 280px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5865F2;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.discord-btn {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-color: #5865F2;
+    
+    border-style:double;
+}
+
+.discord-btn img {
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+
+}
+
+.discord-btn:hover {
+    background-color: #6571f5;
+}
+
+.card{
+    background-color: rgb(240, 240, 240);
+    border-radius: 30px;
+}

@@ -1,0 +1,494 @@
+
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa; 
+    z-index: 1000;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar {
+    background-color:#ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow';
+}
+  
+.logo img {
+    width: 150px; 
+    height: auto;
+}
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size:larger;
+    
+}
+  
+.nav-links li a {
+    text-decoration: none;
+    
+}
+  
+.nav-links li a span {
+    padding: 10px 20px;
+    display: block;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.nav-links li a:hover span {
+    background-color:#FF204E; 
+    color: rgb(255, 255, 255); 
+}
+
+
+
+.banner {
+    background-color: #FF073A;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.banner2 {
+    background-color: #1B192E;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.banner3 {
+  background-color: #C2AA6B;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    color: #fff;
+}
+
+.banner2-content {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    color: #fff;
+}
+
+.banner3-content {
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow', sans-serif;
+  justify-content: center;
+  color: #fff;
+}
+
+.banner-content img {
+    width: 180px; 
+    height: auto;
+    margin-right: 10px;
+    margin-left: 20px;
+    z-index: 10;
+    top: -100px;
+    margin-bottom: 60px;
+}
+
+.banner2-content img {
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.banner3-content img {
+  width: 140px;
+  height: 120px;
+  margin-right: 10px;
+}
+
+.banner-heading {
+    font-size: 18px;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: 'Barlow', sans-serif;
+    margin-left: 50px;
+}
+
+
+
+  
+.subjects-list li {
+    margin-bottom: 10px; 
+    font-size: 20px;
+    font-style: bold;
+  
+}
+  
+.flip-card-container-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+  
+.flip-card-two {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    perspective: 1000px;
+    margin: 0 50px;
+    margin-bottom: 10px;
+    
+}
+  
+.flip-card-inner-two {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+  
+.flip-card-two:hover .flip-card-inner-two {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front-two, .flip-card-back-two {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.flip-card-front-two {
+    background: #F6D8D8;
+    color: #000000;
+}
+
+.flip-card-back-two {
+    background: #F1F2F2;
+    color: black;
+    transform: rotateY(180deg);
+    margin-left: 5px;
+}
+  
+.flip-card-two h2 {
+    margin: 0;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 25px;
+}
+
+.flip-card-two p {
+    margin: 0;
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
+.flip-card-three h2 {
+    margin: 0;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+
+}
+
+.flip-card-three p {
+    margin: 0;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 13px;
+}
+
+
+.flip-card-container-three {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+  
+.flip-card-three {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    perspective: 1000px;
+    margin: 0 20px;
+    margin-bottom: 10px;
+    
+}
+  
+.flip-card-inner-three {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+  
+.flip-card-three:hover .flip-card-inner-three {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front-three, .flip-card-back-three {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.flip-card-front-three {
+    background: #7C9F86;
+    color: #000000;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+
+  
+.para {
+    padding: 20px;
+}
+
+.para2 {
+    padding: 20px;
+    color: white;
+}
+
+.flip-card-back-two ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+  
+.card-heading {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Barlow', sans-serif;
+    padding: 20px;
+}
+
+.card-heading2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    padding: 20px;
+    
+}
+
+/* MEDICAL */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Adjust alignment as needed */
+  width: 90%; /* Adjust container width as per your layout */
+  margin: 120px auto; /* Adjust margin as per your layout */
+  margin-top: 10px;
+}
+
+.rectangles {
+  width: 45%; /* Adjust width of the rectangles container */
+  height: 150px;
+}
+
+.rectangle {
+  width: calc(100% - 40px); /* Adjust width to fit container */
+  height: 90px;
+  padding: 60px;
+  margin: 20px 0px 20px 20px; /* Adjust margin */
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.title h2 {
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.color1 {
+  background-color: #ADD1F6;
+}
+
+.color2 {
+  background-color: #DDEDFC;
+}
+
+.medical-img {
+  width: 45%; /* Adjust width of the image container */
+  margin-top: 210px; /* Adjust margin top as needed */
+  
+}
+
+.medical-img img {
+  max-width: 100%; /* Ensure image stays within container */
+  height: auto;
+  display: block;
+  margin-left: 30px;
+}
+
+.vertical-line1 {
+  height: 120px;
+  border-left: 2px solid white;
+  margin-left: 22px;
+  display: flex;
+}
+
+.vertical-line2 {
+  height: 120px;
+  border-left: 2px solid white;
+  margin-left: 55px;
+}
+
+.vertical-line3 {
+  height: 120px;
+  border-left: 2px solid white;
+}
+
+.vertical-line4 {
+  height: 120px;
+  border-left: 2px solid white;
+  margin-left: 30px;
+}
+
+.rec-content {
+  color:#000;
+  font-size: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+/* LAW */
+
+.flip-card-front-four {
+  background: #FDF1CD;
+  color: #000000;
+  font-family: 'Barlow', sans-serif;
+}
+
+.flip-card-four h2, .flip-card-four p {
+  margin: 0;
+  padding-top: 20px;
+  font-family: 'Barlow', sans-serif;
+  text-align: left;
+
+}
+
+
+.flip-card-container-four {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.flip-card-four {
+  background-color: transparent;
+  width: 350px;
+  height: 400px;
+  perspective: 1000px;
+  margin: 0 20px;
+  margin-bottom: 10px;
+  
+}
+
+.flip-card-inner-four {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-four:hover .flip-card-inner-four {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-four, .flip-card-back-four {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+  

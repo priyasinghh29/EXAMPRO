@@ -1,0 +1,148 @@
+.navbar {
+    background-color:#ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow';
+  }
+  
+  .logo img {
+    width: 150px; 
+    height: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size:larger;
+    
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    
+  }
+  
+  .nav-links li a span {
+    padding: 10px 20px;
+    display: block;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-links li a:hover span {
+    background-color:#FF204E; 
+    color: rgb(255, 255, 255); 
+  }
+
+
+  .banner {
+    background-color: #7D91EF;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    border-radius: 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner-img {
+    max-width: 100px;
+    margin-right: 20px;
+    margin-left: 50px;
+    
+}
+
+.content {
+    background-color: #B8FA94;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card ul{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size:13px;
+}
+
+
+
+
+
+
+
+.banner10 {
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    border-radius: 20px;
+}
+
+.banner10 h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner10-img {
+    max-width: 150px;
+    height:auto;
+    margin-right: 20px;
+    margin-left: 50px;
+    
+}
+
+.content10 {
+    background-color: #FDF1CD;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.card10 {
+    margin-bottom: 20px;
+}
+
+.card10 h2 {
+    margin: 0;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card10 ul{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size:13px;
+}
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,163 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(244, 241, 241);
+}
+
+.navbar {
+    background-color:#ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow';
+}
+  
+.logo img {
+    width: 150px; 
+    height: auto;
+}
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size:larger;
+    
+}
+  
+.nav-links li a {
+    text-decoration: none;
+    
+}
+  
+.nav-links li a span {
+    padding: 10px 20px;
+    display: block;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.nav-links li a:hover span {
+    background-color:#FF204E; 
+    color: rgb(255, 255, 255); 
+}
+
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 1150px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    padding: 20px; 
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+.img-1 img {
+    width: 250px;
+    height: 235px;
+}
+
+.img-2 img {
+    width: 300px;
+    height: 245px;
+}
+
+.headhead {
+    font-size: xx-large;
+    color: red;
+    margin-left: 110px;
+}
+
+.headcontent {
+    font-size: small;
+}
+
+.headhead-2 {
+    font-size: xx-large;
+    color: red;
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.pom {
+    margin-left: 110px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #FCCED8;
+    height: 300px;
+    width: 370px;
+    object-fit: contain;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: black;
+}
+
+.pompom {
+    color: red;
+    font-size:x-large;
+}
+
+.feyn {
+    margin-top: 50px;
+    margin-right: 75px;
+    padding: 50px;
+    background-color: #D0FFB6;
+    height: 300px;
+    width: 370px;
+    object-fit: contain;
+    border: 1px solid #59FB00;
+    border-radius: 20px;
+}
+
+.feynfeyn {
+    color: #4EDD00;
+    font-size:x-large;
+}
+
+.firsttwo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.active {
+    margin-top: 50px;
+    margin-left: 110px;
+    padding: 50px;
+    background-color: #CEEFFF;
+    height: 300px;
+    width: 370px;
+    object-fit: contain;
+    border: 1px solid #00AAFF;
+    border-radius: 20px;
+}
+
+.activa {
+    color:#00AAFF;
+    font-size:x-large;
+}
+
+.space {
+    margin-top: 50px;
+    margin-right: 75px;
+    padding: 50px;
+    background-color: #FFE2CE;
+    height: 300px;
+    width: 370px;
+    object-fit: contain;
+    border: 1px solid #FF6600;
+    border-radius: 20px;
+}
+.spacerep {
+    color:#FF6600;
+    font-size:x-large;
+}

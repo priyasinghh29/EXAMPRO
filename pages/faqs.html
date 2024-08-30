@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page
+    </title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+   
+
+    <div class="faq">
+        <div class="faq-title">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-para">
+            <p>Have questions? Browse through our frequently asked questions (FAQs) to find answers to common queries<br> about exams, careers, and educational paths.</p>
+        </div>
+    
+    <div class="questions">
+        <div class="faq-image">
+            <img src="../assets/question.png">
+        </div>
+
+        <div class="faq-container">
+            <main>
+                <input type="checkbox" id="faq1" class="accordion-checkbox">
+                <label for="faq1" class="accordion-title">Question 1 : What are competitive exams?</label><br>
+                <div class="accordion-content">
+                    Competitive exams are assessments conducted to select candidates for admission to educational courses, recruitment for government or private sector jobs, or for various other purposes. These exams typically have a large number of candidates competing for a limited number of seats or positions.
+                </div>
+            
+                
+        
+                <input type="checkbox" id="faq2" class="accordion-checkbox">
+                <label for="faq2" class="accordion-title">Question 2 :How should I prepare for competitive exams?</label><br>
+                <div class="accordion-content">
+                  <ul>
+                    <li> Understanding the exam pattern and syllabus thoroughly. </li><br>
+                    <li> Creating a study schedule and sticking to it. </li><br>
+                    <li>  Practicing previous years' question papers and mock tests.</li><br>
+                    <li>  Seeking guidance from teachers, mentors, or coaching institutes if needed.</li><br>
+                    <li>  Taking care of physical and mental health to stay focused and motivated.</li><br>
+                  </ul>
+                </div>
+        
+                <input type="checkbox" id="faq3" class="accordion-checkbox">
+                <label for="faq3" class="accordion-title">Question 3 : How can I manage time effectively during the exam?</label><br>
+                <div class="accordion-content">
+                  <ul>
+                    <li>Prioritizing questions based on difficulty level.</li><br>
+                    <li>Setting a time limit for each section and sticking to it.</li><br>
+                    <li>Avoiding spending too much time on difficult questions; move on and return to them later if time permits.</li><br>
+                    <li>Utilizing reading time effectively to understand the instructions and plan the approach.</li><br>
+                    <li>Avoiding guesswork and focusing on accuracy.</li><br>
+                  </ul>
+                </div>
+        
+        
+                <input type="checkbox" id="faq4" class="accordion-checkbox">
+                <label for="faq4" class="accordion-title">Question 4:What should I do if I am unable to clear a competitive exam?</label><br>
+                <div class="accordion-content">
+                    Failure in a competitive exam does not define your abilities. It's essential to stay positive and learn from the experience. Some steps you can take include:
+                  <ul>
+                    <li>Analyzing your performance to identify strengths and weaknesses.</li><br>
+                    <li>Seeking feedback from mentors or teachers for improvement.</li><br>
+                    <li>Considering retaking the exam after thorough preparation.</li><br>
+                    <li>Exploring alternative career options or educational paths that align with your interests and strengths.</li><br>
+                  </ul>
+                </div>
+        
+        
+                <input type="checkbox" id="faq5" class="accordion-checkbox">
+                <label for="faq5" class="accordion-title">Question 5: Are there any scholarships or financial assistance available for competitive exam preparations?</label><br>
+                <div class="accordion-content">
+                    Yes, many organizations, government bodies, and private institutions offer scholarships, grants, or financial assistance to deserving candidates for competitive exam preparations. You can explore such opportunities based on your eligibility criteria and requirements.
+                </div>
+                
+                
+              </main>
+            
+        </div>
+    </div>
+
+    <div class="updates-container">
+        <div class="updates">
+            <div class="update-title">
+                <h2>Never Miss an Update !</h2>
+            </div>
+            <div class="update-para">
+                <p>Subscribe us and never miss an update about changes<br> in patterns or dates of exams</p>
+            </div>
+            <div class="form-container">
+                
+                <form id="emailForm" action="/submit-email" method="POST">
+                  <input type="email" id="emailInput" name="email" placeholder=" Enter your email address" required>
+                  <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+
+        <div class="update-image">
+            <img src=../assets/update.png>
+        </div>
+    </div>
+    <script>
+        document.getElementById('emailForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+        const emailInput = document.getElementById('emailInput');
+        emailInput.classList.add('hidden'); // Add the 'hidden' class to hide the email input
+        this.subscribe(); // Submit the form programmatically if needed
+        });
+  
+    </script>
+    </div>
+    </div>
+
+    

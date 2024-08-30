@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>health-checker</title>
+    <link rel="stylesheet" href="stylesrc.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar">
+        <div class="logo">
+          <img src="logo (3).PNG" alt="ExamPro">
+        </div>
+        <ul class="nav-links">
+          <li><a href="../index.html"><span>Home</span></a></li>
+          <li><a href="../pages/explore2.html"><span>Explore</span></a></li>
+          <li><a href="../pages/chatbotrc.html"><span>Chatbot</span></a></li>
+          <li><a href="../pages/community.html"><span>Community</span></a></li>
+          <li><a href="../pages/resources.html"><span>Resources</span></a></li>
+          <li><a href="../pages/faqs.html"><span>FAQs</span></a></li>
+          <li><a href="../pages/aboutus.html"><span>About Us</span></a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <section class="checkup">
+            <h1>Student Mental Health Check</h1>
+            <form id="mental-health-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="stress-level">On a scale of 1 to 10, how stressed are you?</label>
+                <input type="number" id="stress-level" name="stress-level" min="1" max="10" required>
+
+                <label for="sleep-hours">How many hours do you sleep on average per night?</label>
+                <input type="number" id="sleep-hours" name="sleep-hours" min="0" max="24" required>
+
+                <label for="physical-activity">How many hours of physical activity do you get per week?</label>
+                <input type="number" id="physical-activity" name="physical-activity" min="0" max="168" required>
+
+                <label for="social-activity">How often do you engage in social activities with friends or family per week?</label>
+                <input type="number" id="social-activity" name="social-activity" min="0" max="168" required>
+
+                <button type="button" onclick="assessMentalHealth()">Submit</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+    <script src="check.js"></script>
+</body>
+</html>

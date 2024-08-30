@@ -945,8 +945,126 @@ html {
     margin-left: 15px;
 }
 
-@media (min-width: 1024px) {
-    body {
-        font-size: 20px; /* Further adjusts font size for desktops */
+/* Responsive Layout Adjustments */
+@media screen and (max-width: 1200px) {
+    .container, .questions, .law-exams {
+        grid-template-columns: 1fr; /* Stacks elements on smaller screens */
+    }
+    
+    .navbar, .updates-container, .team-container, .law-banner {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading p, .content p, .heading2 p, .content2 p, .update-title, .update-para, .explore-text h2, .faq-title h2, .faq-para p, .changing-text {
+        margin-left: 20px;
+        font-size: smaller;
+    }
+
+    .carousel-container, .class-container1, .class-container2, .chatbot, .updates-container, .team-container, .law-banner {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .carousel-item {
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 80%;
+    }
+    
+    .class1, .class2, .class3, .law-exam1, .law-exam2, .law-exam3, .law-exam4, .law-exam5, .law-exam6 {
+        margin: 10px auto;
+        width: 90%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .team-image1 img, .team-image2 img, .team-image3 img, .team-image4 img {
+        height: 150px;
+        width: 150px;
+        margin: 10px auto;
+    }
+
+    .law-banner-image img {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    .box2 img, .faq-image img, .update-image img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .heading p, .content p, .heading2 p, .content2 p, .update-title, .update-para, .explore-text h2, .faq-title h2, .faq-para p, .changing-text {
+        font-size: smaller;
+        margin-left: 10px;
+    }
+
+    .text {
+        font-size: 50px;
+        margin: 20px;
+    }
+
+    .text2 {
+        font-size: 14px;
+        margin: 20px;
+    }
+
+    .carousel-item {
+        margin: 10px;
+        width: 90%;
+    }
+
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .explore {
+        width: 150px;
+        font-size: 16px;
+    }
+
+    .navbar {
+        font-size: small;
+    }
+
+    .chatbot {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .vertical-line {
+        display: none; /* Hide the line for smaller screens */
+    }
+
+    .law-banner-content p {
+        margin-left: 0;
+        text-align: center;
     }
 }

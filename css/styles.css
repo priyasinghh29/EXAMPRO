@@ -219,7 +219,8 @@ body {
     align-items: center;
     font-family: 'Barlow';
     position: fixed;
-    z-index: 1000;
+    z-index: 1;
+    top: 0;
    
 }
   

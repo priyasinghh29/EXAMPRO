@@ -218,6 +218,8 @@ body {
     justify-content: space-between;
     align-items: center;
     font-family: 'Barlow';
+    position: fixed;
+    z-index: 1000;
 }
   
 .logo img {

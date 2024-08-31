@@ -220,6 +220,7 @@ body {
     font-family: 'Barlow';
     position: fixed;
     z-index: 1000;
+    top: 0;
 }
   
 .logo img {

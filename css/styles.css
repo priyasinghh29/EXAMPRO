@@ -3,11 +3,11 @@ body {
 }
 
 #section2 {
-    background-color: #FF204E; /* Add your desired background color */
+    background-color: #FF204E; 
     max-height: 900px;
-    padding: 20px; /* Adjust padding to ensure content doesn't overlap */
-    position: relative; /* Ensure the background appears relative to other elements */
-    z-index: 1; /* Adjust if needed to bring this section above others */
+    padding: 20px; 
+    position: relative; 
+    z-index: 1; 
     margin-top: 80px;
 }
 

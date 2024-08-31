@@ -219,7 +219,7 @@ body {
     align-items: center;
     font-family: 'Barlow';
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     top: 0;
    
 }
@@ -234,6 +234,7 @@ body {
     display: flex;
     gap: 20px;
     font-size:larger;
+    justify-content: space-around;
     
 }
   
